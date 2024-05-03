@@ -1,0 +1,100 @@
+section {
+    width: 80%;
+    height: 60vh;
+    margin: auto;
+    padding: 50px;
+  }
+  nav {
+    position: fixed;
+    background: linear-gradient(0deg, rgba(77,54,208,1) 0%, rgba(132,116,254,1) 100%);
+    
+  }
+  .div1,
+  .div2,
+  .div3 {
+    height: 32%;
+    margin-top: 50px;
+  }
+  .div11 {
+    width: 50%;
+    border: 1px solid black;
+    padding-top: 10px;
+  }
+  .div12 {
+    width: 20%;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: 1px solid black;
+    padding-top: 10px;
+  }
+  .div13 {
+    width: 30%;
+    border: 1px solid black;
+    /* display: none; */
+  }
+
+  .cssbuttons-io-button {
+      width: 100%;
+display: flex;
+font-family: inherit;
+font-weight: 700;
+font-size: 17px;
+padding: 0.8em 1.5em 0.8em 1.2em;
+color: white;
+background: linear-gradient(0deg, rgba(77,54,208,1) 0%, rgba(132,116,254,1) 100%);
+box-shadow: 0 0.7em 1.5em -0.5em #4d36d0be;
+border-radius: 20em;
+
+}
+
+.cssbuttons-io-button:hover {
+box-shadow: 0 0.5em 1.5em -0.5em #4d36d0be;
+}
+
+.cssbuttons-io-button:active {
+box-shadow: 0 0.3em 1em -0.5em #4d36d0be;
+}
+h5 {
+  text-align: center;
+  font-size: 21px;
+}
+h6 {
+  text-align: center;
+  font-size: 10px;
+}
+
+
+@media screen and (max-width: 950px) {
+    .div11,.div12,.div13 {
+        width: 100%;
+        height: 33%;
+        padding-top: 30px;
+    }
+
+    .div12 {
+        margin-right: 0%;
+    margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+    section {
+        width: 95%;
+        height: 100vh;
+        margin: auto;
+        padding: 5px;
+      }
+      h5 {
+        font-size: 20px;
+        font-weight: bolder;
+      }
+      h6 {
+        font-size: 15px;
+        font-weight: lighter;
+      }
+      .div1,
+  .div2,
+  .div3 {
+    height: 50%;
+    margin-top: 100px;
+  }
+   }

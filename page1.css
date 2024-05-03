@@ -1,0 +1,50 @@
+
+section {
+    height: 100vh;
+  }
+
+  nav {
+    position: fixed;
+  }
+
+  #div2 {
+    background-color: #edeaea;
+  }
+
+  .div211 {
+    width: 32%;
+  }
+  .download-button {
+          display: inline-block;
+          padding: 10px 20px;
+          margin: 50px;
+          background-color: #007bff;
+          color: #fff;
+          text-decoration: none;
+          border-radius: 5px;
+          font-weight: bold;
+          cursor: pointer;
+      }
+      .bg {
+        background-image: url(./pics/365.jpg); background-size: cover
+      }
+      h2 {
+        font-size: 50px; margin: 60px
+      }
+
+
+
+
+      
+@media screen and (max-width: 600px) {
+    section {
+        height: 90vh;
+    }
+    .bg {
+        background-size: contain;
+    }
+    h2 {
+        font-size: 30px; margin: 10px
+      }
+
+   }

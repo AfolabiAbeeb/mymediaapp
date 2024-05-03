@@ -1,0 +1,19 @@
+body {
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+section {
+    min-height: 95vh;
+}
+.btn2 {
+    width: 25%;
+   }
+
+
+
+@media screen and (max-width: 650px) {
+   .btn2 {
+    width: 100%;
+   }
+  }
